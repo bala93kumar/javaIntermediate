@@ -6,7 +6,17 @@ public abstract  class Receipe {
 
     //recipe
 
+    public void execute(){
+        heatDist();
+        cleanCups();
+    }
+
+
+     abstract void heatDist();
+
     //cleanup
+
+    abstract  void cleanCups();
 
     
 }
